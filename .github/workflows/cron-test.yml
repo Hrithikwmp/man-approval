@@ -135,7 +135,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: Hrithikwmp/man-approval
+      - uses: Hrithikwmp/man-approval@v1
         with:
           secret: ${{ github.TOKEN }}
           approvers: Hrithikwmp
