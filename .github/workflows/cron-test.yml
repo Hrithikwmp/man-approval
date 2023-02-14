@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # Setting build timeout .
-    timeout-minutes: 2
+    timeout-minutes: 3
 
     environment:
       name: dev env
