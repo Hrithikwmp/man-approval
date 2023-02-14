@@ -19,8 +19,8 @@ jobs:
     # Setting build timeout .
     timeout-minutes: 3
 
-    environment:
-      name: dev env
+    # environment:
+    #   name: dev env
 
     # steps:
     #  - uses: Hrithikwmp/man-approval@v1
