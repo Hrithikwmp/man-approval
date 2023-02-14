@@ -22,11 +22,11 @@ jobs:
     # environment:
     #   name: dev env
 
-    # steps:
-    #  - uses: Hrithikwmp/man-approval@v1
-    #    with:
-    #       secret: ${{ TOKEN_GITHUB }}
-    #       approvers: Hrithikwmp
+    steps:
+     - uses: trstringer/manual-approval@v1
+       with:
+          secret: ${{ TOKEN_GITHUB }}
+          approvers: Hrithikwmp
 
 
     steps:
